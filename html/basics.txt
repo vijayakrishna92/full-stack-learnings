@@ -1,0 +1,18 @@
+What is the Internet?
+The Internet is a global network of computers that communicate using standardized protocols (rules). It allows you to:
+
+Access websites
+
+Send/receive data
+
+Use services like email, streaming, cloud storage, etc.
+
+
+HTTP vs HTTPS
+HTTP (HyperText Transfer Protocol): Protocol used to send/receive web data.
+
+HTTPS (HTTP Secure): Same as HTTP, but encrypted with SSL/TLS for security.
+
+Sites using HTTPS show a 🔒 in the browser.
+
+HTTPS ensures privacy, integrity, and authenticity.
