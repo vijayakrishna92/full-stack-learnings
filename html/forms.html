@@ -10,6 +10,19 @@
         <!-- Name Field -->
         <label for="name">Name:</label><br>
         <input type="text" id="name" name="name" required><br><br>
+
+        <!--text area where we can have multiple lines box(ex: feedback)-->
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" cols="30"></textarea>
+
+        <!--drop down selector    -->
+        <label for="reason">Reason for Contact:</label>
+        <select id="reason" name="reason">
+        <option value="support">Support</option>
+        <option value="feedback">Feedback</option>
+        <option value="other">Other</option>
+        </select>
+
         <!-- Submit Button -->
         <button type="submit">Submit</button>
     </form>
