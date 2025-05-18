@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            responsives
+        </title>
+        <style>
+        .box {
+            width: 50%;
+            background-color: lightcoral;
+        }
+        .text {
+            font-size: 2em; /* 2 times bigger than base */
+        }
+        html { font-size: 16px; }
+        .text {
+            font-size: 1.5rem; /* 1.5 x 16 = 24px */
+        }
+        .full-screen {
+            height: 100vh;
+            width: 100vw;
+            background-color: lightgreen;
+        }
+        .responsive-box {
+            background-color: blue;
+            color: white;
+            padding: 30px;
+        }
+
+        @media (max-width: 500px) {
+            .responsive-box {
+            background-color: red;
+            }
+        }
+        </style>
+    </head>
+    <body>
+        <div class="box">I take up 50% of my parent’s width</div>
+        <p class="text">This text is 2em</p>
+        <p class="text">This text is 24px</p>
+        <div class="full-screen">I cover the whole screen</div>
+        <div class="responsive-box">Resize me to see change</div>
+    </body>
+</html>
