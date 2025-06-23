@@ -1,96 +1,73 @@
-That’s a great idea! Building your own portfolio website is a valuable project to showcase your skills.
+# Getting Started with Create React App
 
-Here’s a **step-by-step overview** of what you need:
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
----
+## Available Scripts
 
-## ✅ Programming Languages You’ll Need:
+In the project directory, you can run:
 
-1. **HTML** – For structuring the content of your website.
-2. **CSS** – For styling your website (colors, layout, fonts, etc.).
-3. **JavaScript** – For interactivity (like animations, sliders, etc.).
-4. **Optional:**
+### `npm start`
 
-   * **React.js** – For building a modern, component-based, single-page application (highly recommended).
-   * **TypeScript** – If you want type safety (optional but good for long-term scalability).
-   * **Tailwind CSS** or **SCSS** – For more manageable styling.
-   * **Node.js** with **Express.js** – If you plan to have a backend (contact form, blogs, etc.).
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
----
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## ✅ Recommended Tech Stack for a Modern Portfolio:
+### `npm test`
 
-* **Frontend:** React.js + Tailwind CSS
-* **Hosting:** GitHub Pages, Vercel, Netlify (Free)
-* **Optional Backend:** Node.js + Express (only if you want dynamic features)
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
----
+### `npm run build`
 
-## ✅ Example Folder Structure (for React-based Portfolio)
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-```plaintext
-portfolio-website/
-├── public/
-│   ├── index.html
-│   └── assets/         # Images, icons, static files
-├── src/
-│   ├── assets/         # Local images, fonts
-│   ├── components/     # Reusable components (Navbar, Footer, ProjectCard)
-│   ├── constants/      # Static data (skills, project lists)
-│   ├── pages/          # Pages like Home, About, Projects, Contact
-│   ├── App.jsx         # Main app component
-│   ├── index.js        # React entry point
-│   ├── styles/         # Custom CSS or Tailwind configurations
-│   └── utils/          # Optional utility functions
-├── .gitignore
-├── package.json
-├── README.md
-└── tailwind.config.js  # (if using Tailwind CSS)
-```
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
----
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## ✅ Quick Setup for React + Tailwind
+### `npm run eject`
 
-```bash
-npx create-react-app portfolio-website
-cd portfolio-website
-npm install -D tailwindcss
-npx tailwindcss init
-```
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-* Configure `tailwind.config.js` and import Tailwind in `index.css`.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
----
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-## ✅ Key Pages to Build:
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-1. **Home** – Welcome, short intro
-2. **About Me** – Detailed background
-3. **Projects** – Portfolio showcase
-4. **Skills** – Technical and soft skills
-5. **Contact** – Contact form or social links
-6. *(Optional)* Blog
+## Learn More
 
----
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## ✅ Content Storage Best Practices:
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-* Keep **skills, project lists, and social links in a separate `constants/data.js` file.**
-* Store **images in the `assets/` folder.**
-* Build reusable components for buttons, cards, navbars, etc.
+### Code Splitting
 
----
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-## ✅ Suggested Tools:
+### Analyzing the Bundle Size
 
-* **Icons:** [Lucide](https://lucide.dev/) or [React Icons](https://react-icons.github.io/react-icons/)
-* **Animations:** Framer Motion
-* **Styling:** Tailwind CSS or SCSS
-* **Hosting:** Vercel (auto-deploys from GitHub)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
----
+### Making a Progressive Web App
 
-If you want, I can help you build a **starter folder structure, code template, or deployment guide**.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-Would you like me to generate a **starter React project structure** or a **static HTML/CSS structure**?
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+#1b1a1a
