@@ -1,0 +1,33 @@
+.project-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-card img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.project-card h3 {
+  margin: 15px 0 10px;
+}
+
+.project-card p {
+  color: #666;
+}
+
+.project-button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.project-button:hover {
+  background-color: #f0a500;
+}
