@@ -1,15 +1,19 @@
 .footer {
-    text-align: center;/* Center the text */
-    padding: 20px;/* Space inside the footer */
-    background-color: #f2f2f2;/* Light grey background */
-    margin-top: 40px;/* Space above the footer */
-}
-.social-links a {
-  margin: 0 10px;
-  color: #333;
-  text-decoration: none;
+  padding: 20px;
+  text-align: center;
+  background: transparent;
 }
 
-.social-links a:hover {
-  color: #f0a500;
+.social-links a,
+.footer-text {
+  color: #00f0ff; /* Neon blue */
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover,
+.footer-text:hover {
+  color: #f0a500; /* Gold on hover */
+  cursor: pointer; /* Optional: Makes the text feel interactive */
 }
