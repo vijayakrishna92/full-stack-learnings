@@ -1,19 +1,104 @@
 .footer {
-  padding: 20px;
+  width: 100%;
+  background-color: #252829;
+  color: white;
   text-align: center;
-  background: transparent;
+  padding: 20px 0;
+  font-size: 14px;
+  position: relative;
+  bottom: 0;
+}
+.social-icons {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: start;
+  gap: 15px;
+  margin-bottom: 10px;
+  padding-left: 20px;
 }
 
-.social-links a,
-.footer-text {
-  color: #00f0ff; /* Neon blue */
+.social-icons img {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.2s ease;
+}
+
+.social-icons img:hover {
+  transform: scale(1.1);
+}
+
+.icon-box {
+  background-color: #E63329;  /* 🔴 Red box */
+  border-radius: 12px;
+  padding: 6px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+.icon-box img {
+  width: 20px;
+  height: 20px;
+}
+
+.icon-box:hover {
+  transform: scale(1.1);
+  background-color: #C9920E; /* darker red on hover */
+}
+
+.footer-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 20px;
+}
+
+.blog-section {
+  text-align: left;
+}
+
+.blog-heading {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.blog-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.blog-list li {
+  margin-bottom: 6px;
+}
+
+.blog-list a {
+  color: #C9920E;
   text-decoration: none;
-  margin: 0 10px;
-  transition: color 0.3s ease;
 }
 
-.social-links a:hover,
-.footer-text:hover {
-  color: #f0a500; /* Gold on hover */
-  cursor: pointer; /* Optional: Makes the text feel interactive */
+.blog-list a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .footer-row {
+    flex-direction: column;
+    align-items: center; /* center both sections horizontally */
+    gap: 20px;
+  }
+
+  .social-icons {
+    justify-content: center; /* center icon grid */
+    padding-left: 0; /* remove left padding */
+  }
+
+  .blog-section {
+    text-align: center;
+    padding-left: 0;
+  }
 }

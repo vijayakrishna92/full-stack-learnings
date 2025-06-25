@@ -1,78 +1,82 @@
-/* Container for cloudy navbar background */
-.navbar-container {
-  position: fixed; /* Fixed to top */
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1000;
-}
-
-.cloudy-bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.863); /* Dark semi-transparent */
-  filter: blur(20px);
-  z-index: 0;
-}
-
+/* Base Navbar Styles */
 .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0; /* Ensures it stops at right edge */
+  width: 100vw; /* Full width, no scroll */
+  height: 70px;
+  z-index: 10;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 30px;
-  background-color: transparent; /* Make navbar itself transparent */
-  position: relative;
-  z-index: 100; /* Keep content above the cloudy background */
+  padding: 10px 20px;
+  background-color:transparent; /* Or transparent as needed */
+  overflow: hidden;
 }
 
-.logo {
-  width: 60px;
-  height: auto;
-  object-fit: contain;
-  animation: float 4s ease-in-out infinite;
+/* Logo Styles */
+.navbar-logo img {
+    height: 50px;
+    width: auto;
+    border-radius: 8px;
 }
 
-.nav-links {
-  display: flex;
+.navbar-title {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    white-space: nowrap;
+    margin-left: 20px;
+    position: relative;
+    top: -20px; 
 }
 
-.nav-links a {
-  margin: 0 15px;
-  color: white;
-  text-decoration: none;
-}
 
-.nav-links a:hover {
-  color: #f0a500;
-}
 
-.hamburger {
-  display: none;
-  font-size: 2rem;
-  color: rgb(24, 22, 22);
-  cursor: pointer;
-}
-
-@media (max-width: 768px) {
-  .nav-links {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 70px;
-    right: 40px;
-    background-color: rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    border-radius: 5px;
-  }
-
-  .nav-links.open {
+/* Links Container */
+.navbar-links {
+    list-style: none;
     display: flex;
-  }
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
 
-  .hamburger {
-    display: block;
-  }
+
+/* Individual Link */
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    white-space: nowrap;
+}
+
+
+.nav-link:hover {
+    color: #C9920E;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 15px;
+    }
+
+    .navbar-links {
+        flex-direction: column;
+        width: 100%;
+        gap: 12px;
+        margin-top: 10px;
+    }
+
+    .nav-link {
+        font-size: 1.2rem;
+        padding-left: 5px;
+    }
 }

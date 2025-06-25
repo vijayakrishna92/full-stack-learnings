@@ -1,29 +1,23 @@
-import React from "react";
-import '../styles/projects.css'; // Connect the CSS
-import projects from '../constants/projects';
-import ProjectCard from '../components/ProjectCard'; // Correct import
-import PortfolioImage from '../assets/images/portfolio-image.png'; // Correct image import
+import React from 'react';
+import '../styles/Projects.css';
 
-const Projects = () => {
-    return (
-        <div>
-            <h2>My Projects</h2>
-            <div className="project-list">
-                <ProjectCard
-                    title='Portfolio Website'
-                    description='A personal portfolio built with React'
-                    image={PortfolioImage}
-                    link='https://github.com/your-repo'
-                />
-                <ProjectCard
-                    title='Portfolio Website'
-                    description='A personal portfolio built with React'
-                    image={PortfolioImage}
-                    link='https://github.com/your-repo'
-                />
+function Projects() {
+  const emptyProjects = Array(6).fill(0); // Adjust number as needed
+
+  return (
+    <div className="projects-wrapper">
+      <div className="projects-container">
+        {emptyProjects.map((_, index) => (
+          <div className="project-card" key={index}>
+            <div className="project-image">Image {index + 1}</div>
+            <div className="project-description">
+              Description of project {index + 1}
             </div>
-        </div>
-    );
-};
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
 
 export default Projects;
