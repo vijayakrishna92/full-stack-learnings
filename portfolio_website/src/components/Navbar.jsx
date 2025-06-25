@@ -1,32 +1,29 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import '../styles/navbar.css';
-import HeroImage from '../assets/images/logo-removebg-preview.png';
+import React from 'react';
+import '../styles/Navbar.css';
+import SidebarMenu from './SidebarMenu';
+import logo from '../assets/icons/logo.png';
+import { Link, useLocation } from 'react-router-dom';
 
-const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
+function Navbar() {
+    const location = useLocation();
 
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
-
-  return (
-    <div className="navbar-container">
-      <div className="cloudy-bg"></div>
-      <nav className="navbar">
-        <img src={HeroImage} alt="Vijaya Krishna" className="logo" />
-        <div className={`nav-links ${isOpen ? 'open' : ''}`}>
-          <Link to="/" onClick={() => setIsOpen(false)}>Home</Link>
-          <Link to="/about" onClick={() => setIsOpen(false)}>About</Link>
-          <Link to="/projects" onClick={() => setIsOpen(false)}>Projects</Link>
-          <Link to="/contact" onClick={() => setIsOpen(false)}>Contact</Link>
-        </div>
-        <div className="hamburger" onClick={toggleMenu}>
-          &#9776;
-        </div>
-      </nav>
-    </div>
-  );
-};
+    // Define route-based title
+    const getTitle = () => {
+        if (location.pathname === '/') return '| VIJAYA KRISHNA';
+        if (location.pathname === '/projects') return '| PROJECTS';
+        return ''; // Default: no text for other pages
+    };
+    return (
+        <nav className="navbar">
+            <div className="navbar-logo">
+                <Link to="/">
+                <img src={logo} alt="Logo" className="logo-img" />
+                </Link>
+                <span className="navbar-title">{getTitle()}</span>
+            </div>
+            <SidebarMenu />
+        </nav>
+    );
+}
 
 export default Navbar;

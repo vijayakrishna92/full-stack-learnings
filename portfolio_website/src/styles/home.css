@@ -1,17 +1,135 @@
-/* home.css */
-.full-screen-background {
-    width: 100vw;
-    height: 100vh;
-    background-size: cover;         /* Make the image cover the whole screen */
-    background-position: center;    /* Center the image */
-    background-repeat: no-repeat;   /* Prevent tiling */
+.home-container {
+  background-color: #000; /* full black */
+  color: white; /* ensures all text is visible */
+  min-height: 100vh;
 }
-.dark-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
+
+.slide {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* full screen */
+  overflow: hidden;
+  margin-top: 0;
+}
+
+.slide-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.slide-text {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%);
+  color: white;
+  z-index: 2;
+  max-width: 500px;
+  background-color: rgba(0, 0, 0, 0.4); /* optional: dark backdrop */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.slide-text h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.slide-text p {
+  font-size: 1.2rem;
+}
+.gallery-alternating {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 40px 20px;
+}
+
+.gallery-item {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.gallery-item.left {
+  justify-content: flex-start;
+}
+
+.gallery-item.right {
+  justify-content: flex-end;
+}
+
+.gallery-img {
+  width: 80%;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+
+
+.gallery-text {
+  max-width: 700px;
+  color: white;
+  font-size: 1.1rem;
+  line-height: 2.2;
+  margin-top: 60px;
+}
+
+.gallery-text h2 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  color: #FFD700;
+}
+@media (max-width: 768px) {
+  .slide-text {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90%;
+    padding: 15px;
+    text-align: center;
+  }
+
+  .slide-text h1 {
+    font-size: 2rem;
+  }
+
+  .slide-text p {
+    font-size: 1rem;
+  }
+
+   .gallery-item {
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 20px;
+  }
+
+  /* 👇 Reorder the right-side layout so image appears first */
+  .gallery-item.right {
+    flex-direction: column-reverse !important;
+  }
+
+  .gallery-img {
     width: 100%;
-    height: 100%;
-    background: rgb(0, 0, 0); /* Semi-transparent black */
-    z-index: -1;
+    max-width: 90%;
+  }
+
+  .gallery-text {
+    margin-top: 0;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+
+  .gallery-text h2 {
+    font-size: 1.25rem;
+  }
+
+  .gallery-alternating {
+    padding: 20px 10px;
+    gap: 30px;
+  }
 }
