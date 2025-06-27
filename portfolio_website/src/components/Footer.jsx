@@ -6,6 +6,7 @@ import dagshubIcon from '../assets/icons/dagshub.png';
 import phoneIcon from '../assets/icons/telephone.png';
 import whatsappIcon from '../assets/icons/whatsapp.png';
 import gmailIcon from '../assets/icons/gmail.png';
+import resume  from "../assets/data/Vijaya krishna resume.pdf"
 
 function Footer() {
   return (
@@ -43,6 +44,16 @@ function Footer() {
           </div>
         </a>
       </div>
+
+       <div className="footer-resume">
+      <a
+        href={resume}
+        download
+        className="resume-button"
+      >
+        Download Resume
+      </a>
+    </div>
 
 
       <div className="blog-section">

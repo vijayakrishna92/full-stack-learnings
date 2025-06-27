@@ -1,0 +1,78 @@
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 95px;
+  color: white;
+}
+
+.skill-item img {
+  width: 105px;
+  height: 35px;
+  margin-bottom: 8px;
+}
+.skill-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px;
+  margin-top: 10px;
+}
+.skills-and-achievements-wrapper {
+  padding: 100px 40px 40px; 
+  min-height: 100vh;
+  background-color: #000;
+  color: #fff;
+  line-height: 1.7;
+}
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #FFD700; /* Gold highlight */
+}
+
+.achievement-section {
+  margin-top: 20px;
+  padding-left: 10px;
+}
+
+.achievement-item {
+  margin-bottom: 30px;
+  max-width: 1200px;
+  line-height: 1.6;
+}
+
+.achievement-item h4 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: #FFD700; /* Gold highlight */
+}
+
+.achievement-item p {
+  font-size: 1rem;
+  color: #ddd;
+}
+
+.achievement-item a {
+  color: #1E90FF;
+  text-decoration: none;
+  margin-left: 8px;
+}
+
+.achievement-item a:hover {
+  text-decoration: underline;
+}
+
+.certificate-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.certificate-grid img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease;
+}

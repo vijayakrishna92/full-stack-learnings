@@ -11,6 +11,7 @@ function Navbar() {
     const getTitle = () => {
         if (location.pathname === '/') return '| VIJAYA KRISHNA';
         if (location.pathname === '/projects') return '| PROJECTS';
+        if (location.pathname === '/skillsandachievements') return '| SKILLS & ACHIEVEMENTS';
         return ''; // Default: no text for other pages
     };
     return (
