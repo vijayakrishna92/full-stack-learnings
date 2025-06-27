@@ -75,7 +75,7 @@
 }
 
 .blog-list li {
-  margin-left: -00px;
+  margin-left: 5px;
   white-space: normal;
   display: flex;
   margin-bottom: 8px;
@@ -96,7 +96,9 @@
 }
 
 .resume-button {
-  margin-left: 100px;
+   display: inline-block;
+  margin-top: 35px;
+  margin-left: 95px;
   background-color: #FFD700;
   color: #000;
   padding: 10px 20px;

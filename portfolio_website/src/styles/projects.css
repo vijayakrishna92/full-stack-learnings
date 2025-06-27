@@ -41,6 +41,36 @@
   color: #ddd;
 }
 
+.project-description h4 {
+  color: #FFD700;
+  margin-bottom: 8px;
+}
+
+.project-description p {
+  font-size: 0.95rem;
+  color: #ddd;
+  margin-bottom: 10px;
+}
+
+.project-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.project-btn {
+  background-color: #FFD700;
+  color: black;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.project-btn:hover {
+  background-color: #e6c200;
+}
+
 /* Mobile responsiveness */
 @media (max-width: 768px) {
   .projects-container {
