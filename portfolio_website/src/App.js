@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
+import SkillsAndAchievements from './pages/SkillsAndAchievements';
 import Footer from './components/Footer';
 import './styles/Global.css';
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/skillsandachievements" element={<SkillsAndAchievements/>}/>
       </Routes>
       <Footer />
     </>

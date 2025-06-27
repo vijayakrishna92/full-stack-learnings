@@ -20,6 +20,7 @@ function SidebarMenu() {
         <ul>
           <li onClick={closeSidebar}><Link to="/">HOME</Link></li>
         <li onClick={closeSidebar}><Link to="/projects">PROJECTS</Link></li>
+        <li onClick={closeSidebar}><Link to="/skillsandachievements">SKILLS & ACHIEVEMENTS</Link></li>
         </ul>
       </div>
 
