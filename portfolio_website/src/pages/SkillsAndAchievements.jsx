@@ -33,6 +33,16 @@ import css from '../assets/images/css.svg';
 import crewai from '../assets/images/crewai-auto.svg';
 import autogen from '../assets/images/autogen.svg';
 
+import agent from '../assets/images/agent.png';
+import frankfurt from '../assets/images/frank.png';
+import financial from '../assets/images/financialplanner.png';
+import hotmos from '../assets/images/hotmos.png';
+import hugging from '../assets/images/hugging.webp';
+import interview from '../assets/images/interviewchatbot.png';
+import mental from '../assets/images/mental_health.jpg';
+import mapping from '../assets/images/mapping.png';
+import news from '../assets/images/Newsletter Blog Article Certificate Of Appreciation - Vijaya Krishna.png';
+
 
 function SkillsAndAchievements() {
 
@@ -162,14 +172,14 @@ function SkillsAndAchievements() {
           <div className="skill-item">
             <img src={github} alt="Dart" />
           </div>
-          
+
           <div className="skill-item">
             <img src={figma} alt="Dart" />
           </div>
           <div className="skill-item">
             <img src={huggingface} alt="Dart" />
           </div>
-          
+
           <div className="skill-item">
             <img src={windows} alt="Dart" />
           </div>
@@ -180,56 +190,79 @@ function SkillsAndAchievements() {
       </div>
 
       <div className="skills-section">
-  <h2>ACHIEVEMENT</h2>
-  <div className="achievement-section">
-    <div className="achievement-item">
-      <h4>2nd Place Winner – Omdena Global Hackathon</h4>
-      <p>
-        Ranked 2nd among 11 teams in a competitive AI Agent Challenge.  
-        <a
-          href="https://www.linkedin.com/posts/tusharaggarwalinseec_omdena-2024-hackathon-luma-activity-7268171753351180288-vBQj/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          View Post
-        </a>
-      </p>
-    </div>
+        <h2>ACHIEVEMENT</h2>
+        <div className="achievement-section">
+          <div className="achievement-item">
+            <h4>2nd Place Winner – Omdena Global Hackathon</h4>
+            <p>
+              Ranked 2nd among 11 teams in a competitive AI Agent Challenge.
+              <a
+                href="https://www.linkedin.com/posts/tusharaggarwalinseec_omdena-2024-hackathon-luma-activity-7268171753351180288-vBQj/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Post
+              </a>
+            </p>
+          </div>
 
-    <div className="achievement-item">
-      <h4>Volunteered as an ML/GenAI instructor</h4>
-      <p>
-        Taught Volunteered students about machine learning and generative AI.  
-        <a
-          href="https://www.linkedin.com/posts/activity-7212075021257621504-NFTb?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEfLl_0BiXwkGG0YZ0_IE6QgUax3koQaejE"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          View Post
-        </a>
-      </p>
-    </div>
+          <div className="achievement-item">
+            <h4>Volunteered as an ML/GenAI instructor</h4>
+            <p>
+              Taught Volunteered students about machine learning and generative AI.
+              <a
+                href="https://www.linkedin.com/posts/activity-7212075021257621504-NFTb?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEfLl_0BiXwkGG0YZ0_IE6QgUax3koQaejE"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Post 1
+              </a>
+              <a href='https://www.linkedin.com/posts/optimumai_optimumai-activity-7232767235155501056-aWUB/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEfLl_0BiXwkGG0YZ0_IE6QgUax3koQaejE' target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Post 2
+              </a>
+              <a href='https://www.youtube.com/@OptimumAI' target="_blank"
+                rel="noopener noreferrer"
+              >
+                video reference
+              </a>
+            </p>
 
-https://www.linkedin.com/posts/optimumai_optimumai-marketing-brochure-universities-activity-7299422694096130050-zDj2?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEfLl_0BiXwkGG0YZ0_IE6QgUax3koQaejE
+            <p>
+              Developed learning materials and designed brochures.
+              <a href='https://www.linkedin.com/posts/optimumai_optimumai-marketing-brochure-universities-activity-7299422694096130050-zDj2/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEfLl_0BiXwkGG0YZ0_IE6QgUax3koQaejE' target='_blank' rel='noopener noreferrer'>
+                brochure</a>
+              <a href='https://www.linkedin.com/posts/optimumai_optimumai-genai-ai-activity-7214685613403357186-gu2_?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEfLl_0BiXwkGG0YZ0_IE6QgUax3koQaejE' target='_blank' rel='noopener noreferrer'>
+                post design</a>
+            </p>
+          </div>
 
-https://www.linkedin.com/posts/optimumai_optimumai-activity-7232767235155501056-aWUB?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEfLl_0BiXwkGG0YZ0_IE6QgUax3koQaejE
+          <div className="achievement-item">
+            <h4>Certificates</h4>
+            <div className="certificate-grid">
+              <img src={agent} alt="Certificate 1" />
+              <img src={frankfurt} alt="Certificate 2" />
+              
+              <img src={hotmos} alt="Certificate 4" />
+              <img src={hugging} alt="Certificate 5" />
+              <img src={news} alt="Certificate 6" />
+              <img src={mapping} alt="Certificate 7" />
+              <img src={mental} alt="Certificate 8" />
+              <img src={interview} alt="Certificate 9" />
+              <img src={financial} alt="Certificate 3" />
+              
+            </div>
 
-https://www.linkedin.com/posts/optimumai_optimumai-genai-ai-activity-7214685613403357186-gu2_?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEfLl_0BiXwkGG0YZ0_IE6QgUax3koQaejE
 
-https://www.linkedin.com/posts/optimumai_ai-optimumai-mentalhealthtech-activity-7304425919304146944-XU5l?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEfLl_0BiXwkGG0YZ0_IE6QgUax3koQaejE
 
-https://www.youtube.com/@OptimumAI
-
-https://www.optimumai.in/challanges/multi-agent-ai-content-creation-chatbot-project
-
-  </div>
-</div>
+          </div>
 
 
 
-Taught underrepresented or rural students about machine learning and generative AI.
+        </div>
+      </div>
 
-Developed learning materials, designed brochures, and issued certificates.
 
 
     </div>
