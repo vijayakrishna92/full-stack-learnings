@@ -20,7 +20,7 @@
 .skills-and-achievements-wrapper {
   padding: 100px 40px 40px; 
   min-height: 100vh;
-  background-color: #000;
+  background-color: #0B0C10;
   color: #fff;
   line-height: 1.7;
 }
@@ -75,4 +75,51 @@ h2 {
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
   transition: transform 0.3s ease;
+}
+
+.text-tabs {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-size: 20px;
+  margin-bottom: 30px;
+  cursor: default;
+}
+
+.text-tabs span {
+  cursor: pointer;
+  color: #aaa;
+  margin: 0 6px;
+  transition: color 0.3s, text-decoration 0.3s;
+}
+
+.text-tabs .slash {
+  cursor: default;
+  
+  color: #555;
+}
+
+.text-tabs span.active {
+  color: #FFD700;
+  font-weight: bold;
+}
+
+.text-tabs span:hover {
+  color: #e6c200;
+}
+
+.skills-title {
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.skill-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px; /* space between items */
+}
+.skills-group {
+  display: flex;
+  flex-direction: column;
+  color: #FFD700;
 }
