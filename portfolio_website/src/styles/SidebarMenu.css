@@ -17,7 +17,7 @@
   left: auto;
   width: 250px;
   height: 100vh;
-  background-color: #111;
+  background-color: #0B0C10;
   padding: 60px 20px;
   transition: right 0.3s ease;
   z-index: 1000;
@@ -57,5 +57,5 @@
 
 .sidebar a:hover {
   transform: scale(1.1);
-  color: #C9920E
+  color: #FFD700
 }

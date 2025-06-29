@@ -28,7 +28,7 @@
 }
 
 .icon-box {
-  background-color: #E63329;  /* 🔴 Red box */
+  background-color: #FFD700;  /* 🔴 Red box */
   border-radius: 12px;
   padding: 6px;
   width: 40px;
@@ -46,7 +46,7 @@
 
 .icon-box:hover {
   transform: scale(1.1);
-  background-color: #C9920E; /* darker red on hover */
+  background-color: #e6c200; /* darker red on hover */
 }
 
 .footer-row {
@@ -87,7 +87,7 @@
   white-space: normal;
   word-break: break-word;
   overflow-wrap: break-word;
-  color: #C9920E;
+  color: #FFD700;
   text-decoration: none;
 }
 

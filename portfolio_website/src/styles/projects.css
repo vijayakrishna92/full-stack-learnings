@@ -1,6 +1,6 @@
 /* Outer wrapper to separate this section from navbar */
 .projects-wrapper {
-  background-color: #000;
+  background-color: #0B0C10;
   padding: 100px 40px 40px; /* top padding pushes content below navbar */
   min-height: 100vh;        /* ensures full screen height */
   box-sizing: border-box;

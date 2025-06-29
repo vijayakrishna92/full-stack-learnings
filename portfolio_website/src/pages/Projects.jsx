@@ -13,66 +13,66 @@ function Projects() {
   
   const projects = [
   {
-    title: "Building a chatbot for interview preparation using nlp",
+    title: "Building a Chatbot for Interview Preparation using NLP",
     pdf: interview,
     website: 'https://www.omdena.com/chapter-challenges/building-a-chatbot-for-interview-preparation-using-nlp',
-    github: "https://github.com/yourusername/project1",
+    github: "https://github.com/OmdenaAI/omdena-hyderabad-Chatbot-for-interview",
     contribution: "Built a multi-agent chatbot using NLP and Langchain."
   },
   {
-    title: "Seagrass Mapping",
+    title: "Mapping Seagrass Meadows with Satellite Imagery and Computer Vision",
     pdf: seagrass,
     website: 'https://www.omdena.com/projects/mapping-seagrass-meadows-with-satellite-imagery-and-computer-vision',
-    github: "https://github.com/yourusername/project2",
+    github: "https://dagshub.com/Omdena/TriesteItalyChapter_MappingSeagrassMeadows",
     contribution: "Contributed to CV pipeline for seagrass detection from satellite imagery."
   },
   {
-    title: "AI Chatbot",
+    title: "Leveraging LLMs to Understand Global Mental Health Well-being & Fomo",
     pdf: mental,
     website: 'https://www.omdena.com/chapter-challenges/leveraging-llms-to-understand-global-mental-health-well-being-fomo-in-social-media',
-    github: "https://github.com/yourusername/project1",
+    github: "https://dagshub.com/Omdena/HyderabadIndiaChapter_MentalHealthWellbeingFomoSocialMedia",
     contribution: "Built a multi-agent chatbot using NLP and Langchain."
   },
   {
-    title: "Seagrass Mapping",
+    title: "Street-Level Imagery Analysis",
     pdf: hotosm,
     website: 'https://www.omdena.com/projects/street-level-imagery-analysis',
-    github: "https://github.com/yourusername/project2",
+    github: "https://github.com/OmdenaAI/HOTOSM-Street-Level",
     contribution: "Contributed to CV pipeline for seagrass detection from satellite imagery."
   },
   {
-    title: "AI Chatbot",
+    title: "Standardized Comparison of Urban Green Space Mapping Through Remote Sensing for Frankfurt, Germany",
     pdf: germany,
     website: 'https://www.omdena.com/chapter-challenges/standardized-comparision-of-urban-green-space-mapping-through-remote-sensing',
-    github: "https://github.com/yourusername/project1",
+    github: "https://dagshub.com/Omdena/FrankfurtGermanyChapter_UrbanGreenSpaceMappping",
     contribution: "Built a multi-agent chatbot using NLP and Langchain."
   },
   {
-    title: "Seagrass Mapping",
+    title: "AI Agents Inference Benchmarking Challenge",
     pdf: benchmark,
     website: 'https://www.omdena.com/chapter-challenges/ai-agents-inference-benchmarking-challenge',
-    github: "https://github.com/yourusername/project2",
+    github: "https://github.com/OmdenaAI/OmdenaKnowledge_AIAgentsInferenceBenchmarking",
     contribution: "Contributed to CV pipeline for seagrass detection from satellite imagery."
   },
   {
-    title: "AI Chatbot",
+    title: "Building VisionVitals: AI-Powered Biometric and Vital Signs Monitoring Through Camera",
     pdf: vision,
     website: 'https://www.omdena.com/projects/building-visionvitals-ai-powered-biometric-and-vital-signs-monitoring-through-camera',
-    github: "https://github.com/yourusername/project1",
+    github: "https://github.com/OmdenaAI/VisionVitals-AI-Powered-Biometric-and-Vital-Signs-Monitoring-Through-Camera",
     contribution: "Built a multi-agent chatbot using NLP and Langchain."
   },
   {
-    title: "Seagrass Mapping",
+    title: "AI Financial Planner using Multi-Agent Architecture",
     pdf: op1,
     website: 'https://www.optimumai.in/challanges/ai-financial-planner-using-multi-agent-architecture',
-    github: "https://github.com/yourusername/project2",
+    github: "https://github.com/OptimumAI-Community/AI-Financial-Planner",
     contribution: "Contributed to CV pipeline for seagrass detection from satellite imagery."
   },
   {
-    title: "AI Chatbot",
+    title: "Multi-Agent Content Creation Project",
     pdf: op2,
     website: 'https://www.optimumai.in/challanges/multi-agent-ai-content-creation-chatbot-project',
-    github: "https://github.com/yourusername/project1",
+    github: "https://github.com/OptimumAI-Community/Chatbot-for-Content-Creation",
     contribution: "Built a multi-agent chatbot using NLP and Langchain."
   },
   
