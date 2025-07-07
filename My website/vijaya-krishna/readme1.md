@@ -65,3 +65,6 @@ pnpm dlx tailwindcss init -p
 
 rd /s /q node_modules
 del pnpm-lock.yaml
+
+
+pip install llama-index llama-index-llms-groq
