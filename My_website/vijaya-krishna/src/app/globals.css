@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+.home-body {
+    background-image: url('/hero-background.jpg');
+    min-height: 100vh;
+    @apply bg-cover bg-center bg-no-repeat;
+}
+
+
+
+
+
