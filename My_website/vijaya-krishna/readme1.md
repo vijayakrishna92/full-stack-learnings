@@ -72,3 +72,7 @@ pip install llama-index-llms-groq
 pip install mcp
 pip install "mcp[cli]"
 pip install fastmcp==1.0
+
+pip install chromadb
+pip install langchain
+pip install tiktoken==0.1.1

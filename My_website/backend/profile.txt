@@ -1,0 +1,209 @@
+V I J A Y A  K R I S H N A
+Dynamic professional innovating at the intersection of engineering and AI
+
+📞 +91 9611747756 | +91 9481194676
+📧 vijaykrishnavk92@gmail.com
+LinkedIn: https://www.linkedin.com/in/vijaya-krishnak-139487297/
+GitHub: vijayakrishna92
+Dagshub: https://dagshub.com/vijaykrishnavk92
+📍 Konila House, Vorkady Post, Manjeshwara Village, Kasaragod-671323, Kerala, India
+
+──────────────────────────────
+🎯 OBJECTIVE
+Detail-oriented and versatile professional with extensive experience in hardware engineering, software development, and AI projects. Skilled in system design, machine learning, and cross-functional collaboration. Seeking to leverage technical expertise and volunteer contributions in a dynamic role focused on innovation and impact.
+
+──────────────────────────────
+🛠 SKILLS
+AI & Data: AI agents, Retrieval-Augmented Generation (RAG), sentiment analysis, data preprocessing (NLTK), ML algorithms (linear regression, polynomial regression, XGBoost, Random Forest), fine-tuning, prompt engineering.
+Frameworks: CrewAI, LangGraph, AutoGen, LlamaIndex.
+Programming & Tools: Python, Google Earth Engine, QGIS, Labelbox, Git, GitHub, Dagshub.
+Frontend & Backend: React, Next.js, FastAPI, Redis, PostgreSQL, Flutter.
+Soft Skills: Collaboration, problem-solving, mentorship, reporting.
+Design: Certificates, brochures (Canva).
+Technical: Arduino programming, logic gates, encoders, machinery maintenance.
+
+──────────────────────────────
+🎓 EDUCATION
+Master of Science in Electronics – Mangalore University – 2013–2015 – 63.36%
+Bachelor of Science in Physics, Mathematics, Electronics – Vivekananda College, Mangalore University – 2010–2013 – 64.74%
+Pre-University (PUC) – Vivekananda PU College – 2008–2010 – 53.5%
+SSLC – Vishwamangala High School – 2008 – 72.96%
+
+──────────────────────────────
+💼 WORK EXPERIENCE
+
+⚙ Mechanical Engineer & Trainer – Sarasija Foods, Mangalore (2018–2024)
+– Maintained, rebuilt, and optimized bakery machinery.
+– Trained staff on machine operations and adjustments.
+– Prototyped and rebuilt bread-packing machine.
+
+🔧 Hardware Engineer & Trainer – Tecprosoft (2017–2018)
+– Built academic hardware projects: dental vibrator, reverse-engineered Siemens display unit.
+– Trained students on Arduino basics and coding.
+– Managed hardware inventory and procurement.
+
+🧪 AI Researcher & Course Instructor – OptimumAI (2024)
+– Conducted research for AI financial planner chatbot.
+– Built prototypes for multi-agent chatbots and web scraping tools.
+– Authored blogs and taught topics like RAG, prompt engineering, and LlamaIndex.
+
+🔍 Data Scientist & Volunteer – Omdena (2023–Present)
+– Contributed to RAG chatbots, remote sensing projects, AI agent benchmarking.
+– Web scraping, text preprocessing, project documentation.
+– Collaborated globally with engineers, researchers, and domain experts.
+
+──────────────────────────────
+📦 PROJECTS & ACHIEVEMENTS
+– AI Agents Inference Benchmarking Challenge (led project coordination & documentation)
+– Mental Health Chatbot, Interview Preparation Chatbot (RAG-based)
+– Urban Green Space Mapping & Seagrass Meadows segmentation (Google Earth Engine, UNet models)
+– Street-Level Imagery analysis (fine-tuned MobileNet)
+– Built Vision Vitals app (Flutter frontend, JWT backend integration, data collection, SWOT analysis)
+– React portfolio website & Next.js AI-integrated portfolio (FastAPI, Redis, PostgreSQL, LangGraph)
+– Written blogs: "Gateway to Advance LLMs: Embracing Retrieval-Augmented Generation" & "Langchain Uprising"
+– Won 2nd place in Omdena hackathon among 11 teams
+
+──────────────────────────────
+📜 STORY
+I was born on June 10, 1992, in Kerala, southern India, into a joint Brahmin family speaking Kannada and passionate about Yakshagana, the folk dance of Karnataka. My uncle and cousin still perform as artists.  
+
+As a child, I was quiet, shy, and often daydreamed during classes. After 10th grade (scored 456), I joined PU with electronics simply because it meant "glowing bulbs" and my cousin chose it—my mindset then was that engineers earned high salaries. I didn’t know how to fill forms or explore other streams. In my degree, I first saw coding: machine-level, assembly, and later C. I graduated with 64.74%.
+
+During my master's, I explored VLSI, Verilog, VHDL, and Arduino, encouraged by a professor who loved experimenting with math in code. I also learned MATLAB and graduated with 63.36%.
+
+In the job market, I faced rejection—BPOs turned me down for slow typing & poor English; software companies rejected my MSc electronics background. Returning home, I found work at Tecprosoft as a hardware engineer building student projects, coding for Arduino, and training students. After a year, I left due to low pay and long hours.
+
+I then joined a bread factory as a machine operator & trainer. Family health issues and the pandemic kept me there until 2023, with a brief coding attempt in 2022. Mid-2023, I fully restarted learning Python. Through my cousin, I joined Omdena and began volunteering: initially observing, collecting data, writing reports, and running simple code.
+
+I later joined OptimumAI as a volunteer: designing brochures and certificates, writing blogs, and teaching ML & GenAI topics. At Omdena, I actively contributed to RAG chatbots, benchmarking AI agents, and remote sensing projects, collaborating with global experts. I also built portfolio websites, Flutter apps, and integrated AI backends.
+
+From someone who once only watched others code, I became someone who codes, teaches, and builds.
+
+──────────────────────────────
+🏆 HOBBIES & LANGUAGES
+Photography enthusiast.
+Languages: English, Kannada, Hindi.
+Designed certificates & brochures, authored newsletters, volunteered as an instructor.
+
+Programming Languages
+Python
+
+Dart
+
+HTML
+
+CSS
+
+Frameworks & Libraries
+React
+
+Flutter
+
+Django
+
+FastAPI
+
+Selenium
+
+Scikit-learn
+
+TensorFlow
+
+PyTorch
+
+LangChain
+
+CrewAI
+
+Autogen
+
+LangGraph
+
+NLTK
+
+Databases
+PostgreSQL
+
+MongoDB
+
+Data Science & ML
+Matplotlib
+
+NumPy
+
+Pandas
+
+XGBoost
+
+Random Forest
+
+Linear Regression
+
+Polynomial Regression
+
+Finetuning Models
+
+RAG
+
+Prompt Engineering
+
+Version Control & Dev Tools
+Git
+
+GitHub
+
+Docker
+
+VSCode
+
+Dagshub
+
+Google Colab
+
+Figma
+
+Hugging Face
+
+Other Tools & Platforms
+ChatGPT
+
+QGIS
+
+LABELBOX
+
+Windows
+
+HP
+
+JSON
+
+🏆 Achievements
+2nd Place Winner – Omdena Global Hackathon
+Ranked 2nd among 11 teams in an AI Agent Challenge.
+
+Volunteered as ML/GenAI Instructor
+
+Taught students about machine learning and generative AI
+
+Developed learning materials, designed brochures and posts
+
+Contributed to marketing brochures for universities
+
+📜 Certificates
+AI Agent certificate
+
+Frankfurt certificate
+
+Financial Planner certificate
+
+HOTMOS certificate
+
+HuggingFace certificate
+
+Newsletter / Blog / Article / Certificate of Appreciation
+
+Mapping certificate
+
+Mental Health certificate
+
+Interview Chatbot certificate

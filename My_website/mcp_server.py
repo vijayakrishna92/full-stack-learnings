@@ -5,6 +5,7 @@ from mcp.server.models import InitializationOptions
 from mcp.server.lowlevel import NotificationOptions
 from typing import Any
 import asyncio
+import tiktoken
 
 # Simulated corpus
 DOCUMENTS = [
