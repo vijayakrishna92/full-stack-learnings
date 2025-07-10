@@ -1,21 +1,21 @@
-# 📌 Vijaya Krishna
+#  Vijaya Krishna
 
 Dynamic professional innovating at the intersection of engineering and AI.
 
-📞 +91 9611747756 | +91 9481194676  
-📧 vijaykrishnavk92@gmail.com  
+ +91 9611747756 | +91 9481194676  
+ vijaykrishnavk92@gmail.com  
 [LinkedIn](https://www.linkedin.com/in/vijaya-krishnak-139487297/) | GitHub: vijayakrishna92 | [Dagshub](https://dagshub.com/vijaykrishnavk92)  
-📍 Konila House, Vorkady Post, Manjeshwara Village, Kasaragod-671323, Kerala, India
+ Konila House, Vorkady Post, Manjeshwara Village, Kasaragod-671323, Kerala, India
 
 ---
 
-## 🎯 Objective
+##  Objective
 
 Detail-oriented and versatile professional with extensive experience in hardware engineering, software development, and AI projects. Skilled in system design, machine learning, cross-functional collaboration, and storytelling through code. Seeking to leverage my diverse background in a dynamic role focused on innovation, impact, and bridging human stories with technology.
 
 ---
 
-## 🛠 Skills
+##  Skills
 
 - **AI & Data:** AI agents, Retrieval-Augmented Generation (RAG), prompt engineering, sentiment analysis, data preprocessing (NLTK), ML algorithms (Linear Regression, Polynomial Regression, XGBoost, Random Forest), fine-tuning.
 - **Frameworks & Tools:** CrewAI, LangGraph, AutoGen, LlamaIndex.
@@ -27,7 +27,7 @@ Detail-oriented and versatile professional with extensive experience in hardware
 
 ---
 
-## 🎓 Education
+##  Education
 
 - **Master of Science in Electronics** – Mangalore University (2013–2015) – 63.36%
 - **Bachelor of Science in Physics, Mathematics, Electronics** – Vivekananda College, Mangalore University (2010–2013) – 64.74%
@@ -36,14 +36,14 @@ Detail-oriented and versatile professional with extensive experience in hardware
 
 ---
 
-## 💼 Work Experience
+##  Work Experience
 
 ### Mechanical Engineer & Trainer – Sarasija Foods, Mangalore (2018–2024)
 - Maintained, rebuilt, and optimized bakery machinery.
 - Trained staff on operations and adjustments.
 - Prototyped and rebuilt bread-packing machine.
 
-> 📝 *Reason for leaving*: Family health issues and pandemic delays; wanted to pivot to AI/tech full-time.
+>  *Reason for leaving*: Family health issues and pandemic delays; wanted to pivot to AI/tech full-time.
 
 ---
 
@@ -52,7 +52,7 @@ Detail-oriented and versatile professional with extensive experience in hardware
 - Trained students on Arduino basics and coding.
 - Managed hardware inventory and procurement.
 
-> 📝 *Reason for leaving*: Low salary and very long hours; needed better work–life balance and growth.
+>  *Reason for leaving*: Low salary and very long hours; needed better work–life balance and growth.
 
 ---
 
@@ -70,7 +70,7 @@ Detail-oriented and versatile professional with extensive experience in hardware
 
 ---
 
-## 📦 Projects & Achievements
+##  Projects & Achievements
 
 - AI Agents Inference Benchmarking Challenge – led coordination & documentation.
 - Mental Health Chatbot & Interview Preparation Chatbot (RAG-based).
@@ -79,11 +79,11 @@ Detail-oriented and versatile professional with extensive experience in hardware
 - Vision Vitals app (Flutter frontend, JWT backend integration).
 - React portfolio website & Next.js AI-integrated portfolio (FastAPI, Redis, PostgreSQL, LangGraph).
 - Written blogs: *"Gateway to Advance LLMs: Embracing Retrieval-Augmented Generation"* & *"Langchain Uprising"*.
-- 🏆 Won 2nd place in Omdena Global Hackathon among 11 teams.
+-  Won 2nd place in Omdena Global Hackathon among 11 teams.
 
 ---
 
-## 📜 Story
+##  Story
 
 I was born on June 10, 1992, in Kerala, into a joint Brahmin family passionate about Yakshagana (Karnataka’s folk art). My uncle and cousin are still active performers.
 
@@ -104,21 +104,21 @@ From someone who once only *watched* others code, I became someone who codes, te
 
 ---
 
-## 🏆 Hobbies & Languages
+##  Hobbies & Languages
 
 - Photography enthusiast.
 - Languages: English, Kannada, Hindi.
 
 ---
 
-## 💻 Programming Languages
+##  Programming Languages
 - Python
 - Dart
 - HTML, CSS
 
 ---
 
-## 📚 Frameworks & Libraries
+##  Frameworks & Libraries
 - React, Next.js, Flutter
 - Django, FastAPI
 - Selenium, Scikit-learn, TensorFlow, PyTorch, LangChain, CrewAI, AutoGen, LangGraph, NLTK
@@ -126,38 +126,38 @@ From someone who once only *watched* others code, I became someone who codes, te
 
 ---
 
-## 🗄 Databases
+##  Databases
 - PostgreSQL, MongoDB
 
 ---
 
-## 📊 Data Science & ML
+##  Data Science & ML
 - Matplotlib, NumPy, Pandas
 - XGBoost, Random Forest, Linear Regression, Polynomial Regression
 - Fine-tuning, RAG, prompt engineering
 
 ---
 
-## 🛠 Version Control & Dev Tools
+##  Version Control & Dev Tools
 - Git, GitHub, Docker, VSCode, Dagshub, Google Colab, Figma, Hugging Face
 
 ---
 
-## 🌍 Other Tools & Platforms
+##  Other Tools & Platforms
 - ChatGPT, QGIS, Labelbox, Windows, HP, JSON
 
 ---
 
-## 🏅 Achievements & Certificates
+##  Achievements & Certificates
 
-- 🏆 2nd Place – Omdena Global Hackathon (among 11 teams)
+-  2nd Place – Omdena Global Hackathon (among 11 teams)
 - Volunteered as ML/GenAI Instructor: teaching, writing materials, designing brochures.
 - AI Agent certificate, Frankfurt certificate, Financial Planner certificate, HOTMOS certificate, Hugging Face certificate, Mapping certificate, Mental Health certificate, Interview Chatbot certificate, Newsletter/blog/article certificates of appreciation.
 
 ---
 
 
-## 📜 Certificates
+##  Certificates
 
 ![AI Agent Certificate](images/ai_agent.png)
 ![Frankfurt Certificate](images/frank.png)
@@ -173,7 +173,7 @@ From someone who once only *watched* others code, I became someone who codes, te
 
 ---
 
-## ✍ Blogs
+##  Blogs
 
 - [" Gateway to Advance LLMs: Embracing Retrieval-Augmented Generation"]https://www.linkedin.com/pulse/gateway-advance-llms-embracing-retrieval-augmented-generation-2ofyc/?trackingId=v8%2BkVPjbQ2q7ewcMV%2BKwag%3D%3D)
 - ["Langchain Uprising: Unlocking the Power of Programmable Blockchains"](https://www.linkedin.com/pulse/langchain-uprising-unlocking-power-programmable-blockchains-jluie/?trackingId=J69AG1W6Sd6B90%2BU1f%2F6Tw%3D%3D)
