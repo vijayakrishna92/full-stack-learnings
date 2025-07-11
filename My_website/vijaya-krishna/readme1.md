@@ -76,3 +76,15 @@ pip install fastmcp==1.0
 pip install chromadb
 pip install langchain
 pip install tiktoken==0.1.1
+pip install langchain-text-splitters
+pip install -qU langchain-text-splitters
+pip install fastmcp chromadb sentence-transformers
+
+fastmcp dev tester2.py or fastmcp run tester2.py
+
+
+https://python.langchain.com/docs/tutorials/llm_chain/ 
+https://python.langchain.com/docs/tutorials/summarization/
+https://python.langchain.com/docs/tutorials/chatbot/
+https://python.langchain.com/docs/tutorials/rag/
+https://python.langchain.com/docs/tutorials/qa_chat_history/
