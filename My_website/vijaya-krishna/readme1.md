@@ -85,6 +85,8 @@ fastmcp run tester2.py --transport stdio
 fastmcp dev tester2.py  
 fastmcp run tester2.py
 
+pip install pyyaml
+
 
 https://python.langchain.com/docs/tutorials/llm_chain/ 
 https://python.langchain.com/docs/tutorials/summarization/
