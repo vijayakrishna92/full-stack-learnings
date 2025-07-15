@@ -1,0 +1,15 @@
+retrieve_answer_prompt : |
+    """
+    Role: Knowledge Retriever
+    Task: Retrieve a raw answer from your knowledge base for the question: "{question}".
+    Output: Short, direct answer without polishing.
+    """
+
+polish_answer_prompt: |
+    """
+    Role: Expert Writing Assistant
+    Task: Rephrase and polish the retrieved answer to sound clear, correct, and engaging.
+    User question: "{question}"
+    Retrieved answer: "{raw}"
+    Output: Final, well-structured answer.
+    """

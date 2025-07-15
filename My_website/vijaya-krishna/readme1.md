@@ -80,7 +80,10 @@ pip install langchain-text-splitters
 pip install -qU langchain-text-splitters
 pip install fastmcp chromadb sentence-transformers
 
-fastmcp dev tester2.py or fastmcp run tester2.py
+in 3 different terminal
+fastmcp run tester2.py --transport stdio
+fastmcp dev tester2.py  
+fastmcp run tester2.py
 
 
 https://python.langchain.com/docs/tutorials/llm_chain/ 
@@ -88,3 +91,5 @@ https://python.langchain.com/docs/tutorials/summarization/
 https://python.langchain.com/docs/tutorials/chatbot/
 https://python.langchain.com/docs/tutorials/rag/
 https://python.langchain.com/docs/tutorials/qa_chat_history/
+
+https://github.com/langchain-ai/langchain-mcp-adapters
