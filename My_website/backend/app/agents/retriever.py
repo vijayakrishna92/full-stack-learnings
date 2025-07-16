@@ -1,9 +1,11 @@
-def retrieve_answer(state, llm, config):
+from app.config import PROMPTS
+
+def retrieve_answer(state, llm):
     question = state["user_prompt"]
-    prompt = f"""
-    Role: Knowledge Retriever
-    Task: Retrieve a raw answer from your knowledge base for the question: "{question}".
-    Output: Short, direct answer without polishing.
-    """
+    prompt = PROMPTS["retrieve_answer_prompt"].format(question=question)
     response = llm.invoke(prompt)
-    return {"user_prompt": question, "retrieved_answer": response.content, "final_answer": ""}
+    return {
+        "user_prompt": question,
+        "retrieved_answer": response.content,
+        "final_answer": ""
+    }

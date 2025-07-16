@@ -86,6 +86,8 @@ fastmcp dev tester2.py
 fastmcp run tester2.py
 
 pip install pyyaml
+pip install langchain-mcp-adapters
+pip install mcp
 
 
 https://python.langchain.com/docs/tutorials/llm_chain/ 

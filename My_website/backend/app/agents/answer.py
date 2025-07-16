@@ -1,12 +1,12 @@
-def polish_answer(state, llm) :
+from app.config import PROMPTS
+
+def polish_answer(state, llm):
     question = state["user_prompt"]
     raw = state["retrieved_answer"]
-    prompt = f"""
-    Role: Expert Writing Assistant
-    Task: Rephrase and polish the retrieved answer to sound clear, correct, and engaging.
-    User question: "{question}"
-    Retrieved answer: "{raw}"
-    Output: Final, well-structured answer.
-    """
+    prompt = PROMPTS["polish_answer_prompt"].format(question=question, raw=raw)
     response = llm.invoke(prompt)
-    return {"user_prompt": question, "retrieved_answer": raw, "final_answer": response.content}
+    return {
+        "user_prompt": question,
+        "retrieved_answer": raw,
+        "final_answer": response.content
+    }
