@@ -14,7 +14,7 @@ print("DEBUG: SentenceTransformerEmbeddingFunction initialized.", file=sys.stder
 mcp = FastMCP(name="LocalChroma", request_timeout=300)
 
 @mcp.tool()
-async def search_similar(query: str, ctx: Context, num_results: int = 3) -> dict:
+async def search_similar(query: str, ctx: Context, num_results: int = 1) -> dict:
     # ... (rest of your code)
     db_path = str(Path(__file__).parent.parent / "data" / "chroma_db")
     client = PersistentClient(path=db_path)

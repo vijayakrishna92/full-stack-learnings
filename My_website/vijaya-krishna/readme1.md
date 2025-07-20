@@ -89,6 +89,7 @@ pip install pyyaml
 pip install langchain-mcp-adapters
 pip install mcp
 
+python tester4.py
 
 https://python.langchain.com/docs/tutorials/llm_chain/ 
 https://python.langchain.com/docs/tutorials/summarization/

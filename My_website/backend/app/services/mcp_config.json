@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "localchroma": {
+      "command": "python",
+      "args": ["../services/tester2.py"],
+      "transport": "stdio"
+    }
+  }
+}
